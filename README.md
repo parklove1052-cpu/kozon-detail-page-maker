@@ -28,7 +28,7 @@ New-Item -ItemType Directory -Force -Path "C:\Users\MYCOM\Documents\조현준편
 
 cd "C:\Users\MYCOM\Documents\조현준편집파일 329부터\클로드코드\코존워크스페이스\domains"
 
-git clone https://github.com/<당신의-username>/kozon-detail-page-maker.git "상세페이지 제작자"
+git clone https://github.com/parklove1052-cpu/kozon-detail-page-maker.git "상세페이지 제작자"
 ```
 
 ⚠️ 새 PC 사용자명이 `MYCOM`이 아니어도 위 경로를 그대로 만들면 동작합니다 (Windows는 사용자 폴더와 무관하게 임의 경로 사용 가능).
@@ -38,7 +38,7 @@ git clone https://github.com/<당신의-username>/kozon-detail-page-maker.git "�
 다른 경로에 두고 싶다면 클론 후 `install.bat`를 실행하세요. `config.json`의 절대경로를 현재 PC의 실제 경로로 자동 치환합니다.
 
 ```powershell
-git clone https://github.com/<username>/kozon-detail-page-maker.git "상세페이지 제작자"
+git clone https://github.com/parklove1052-cpu/kozon-detail-page-maker.git "상세페이지 제작자"
 cd "상세페이지 제작자"
 .\install.bat
 ```
